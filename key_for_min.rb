@@ -8,10 +8,6 @@ def key_for_min_value(hash)
     if ref == nil || value < ref
       ref = value
       answer = key
-#    elsif
-#      value < ref
-#      ref = value
-#      answer = key
     end
   end
   answer
